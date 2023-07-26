@@ -3,7 +3,7 @@ class Category:
   def __init__(self, name) -> None:
     self.ledger = []
     self.name = name
-    self.amount = 0.0
+    self.amount = 0.00
     self.overall_amount = 0.0
 
   def check_funds(self, amount):
